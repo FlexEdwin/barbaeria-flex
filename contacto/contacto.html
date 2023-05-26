@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto FLEX</title>
+        <link rel="stylesheet" href="reset.css/reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+
+                <h1> <img src="imagenes/imagenes/logo.png" alt="logo de la barberia flex"> </h1>
+                <nav>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos barberia.htm">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+
+                </nav>
+
+
+            </div>
+                        
+        </header>
+
+        <main>
+            
+            <form>
+                <label for="nomreapellido">Nombre y Apellido</label>
+                <input type="text" id="nomreapellido" class="input-padron" required placeholder="NOMBRE Y APELLIDO">
+
+                <label for="correoelectronico">Correo electronico</label>
+                <input type="email" id="correoelectronico"class="input-padron" required placeholder="NOMBRE@EMAIL.COM">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono"class="input-padron" required placeholder="123 XXX XX XX">
+
+                <label for="mensaje">mensaje</label>
+                <textarea cols="70" id="mensaje"class="input-padron" required placeholder="DEJANOS UN MENSAJE DE REFERENCIA"></textarea>
+
+                <fieldset>
+                    <legend>Como le gustaria que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="Email" id="radio-email">Email</label>
+                    
+                
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="Telefono" id="radio-telefono">Telefono</label>
+                    
+
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="WhatsApp" id="radio-whatsapp" checked>WhatsApp</label>
+                
+                </fieldset>
+                
+                <fieldset>
+                    <legend>En cual horario prefiere ser atendido?</legend>
+                
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+
+                </fieldset>
+                
+
+                <label class="checkbox"><input type="checkbox" checked> Le gustaria recibir novedades? </label>
+
+                <input type="submit" value="Enviar Formulario" class="enviar">
+                
+
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>                    
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Lunes </td>
+                        <td>08:00-20:00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08:00-20:00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08:00-20:00</td>
+                    </tr>
+                </tbody>
+
+                
+            </table>
+
+        </main>
+
+        <footer>
+            <img src="imagenes/imagenes/logo-blanco.png" alt="logo de la barberia flex">
+            <p class="Copyright">&copy Copyright Flex Edwin 2023</p>
+        </footer>
+
+
+    </body>
+
+
+</html>   
